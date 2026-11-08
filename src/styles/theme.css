@@ -2490,3 +2490,11 @@ button { font-family: inherit; }
 .srec__row em { font-style: normal; font-size: 11px; color: #889; margin-left: 4px; }
 .srec__who { flex: 1; font-weight: 700; color: #fff; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .srec__row small { color: #778; font-size: 12px; }
+
+/* ===== Backup ===== */
+.bk { display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; margin-top: 18px; padding: 14px 20px; background: rgba(8,10,24,.85); border: 1px dashed rgba(110,160,255,.3); }
+.bk__text { margin: 4px 0 0; color: #aab; font-size: 14px; }
+.bk__msg { margin: 6px 0 0; color: #3ddc84; font-size: 14px; font-weight: 700; } .bk__msg--err { color: #ff8fa3; }
+.bk__btns { display: flex; gap: 8px; }
+.bk__btns .wr__share { margin-top: 0; }
+.bk__restore { font-family: var(--font-display); letter-spacing: .15em; font-size: 16px; padding: 8px 18px; background: none; color: #ccd; border: 1px solid rgba(255,255,255,.25); cursor: pointer; }

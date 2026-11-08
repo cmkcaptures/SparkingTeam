@@ -16,6 +16,7 @@ import CoachNote from './CoachNote.jsx'
 import VsLastMonth from './VsLastMonth.jsx'
 import MomentumGraph from './MomentumGraph.jsx'
 import SetRecord from './SetRecord.jsx'
+import Backup from './Backup.jsx'
 import Collection from './Collection.jsx'
 
 const HUB_TABS = [['overview', 'Overview'], ['stats', 'Stats'], ['collection', 'Collection'], ['meta', 'Meta Watch']]
@@ -281,6 +282,8 @@ export default function FighterHub({ onNavigate }) {
               })}
             </div>
           </div>}
+
+          <Backup />
 
           <div className="hub-quick-links">
             <button className="hub-quick-link" type="button" onClick={() => onNavigate('rankings')}>
